@@ -27,11 +27,13 @@ class ConfigurationService {
           backUrl: 'https://backend.dev.example.com',
           appUrl: 'http://localhost:3000',
         );
+        break;
       case Flavor.staging:
         _config = Configuration(
           backUrl: 'https://backend.qa.example.com',
           appUrl: 'https://frontend.qa.example.com',
         );
+        break;
       case Flavor.production:
         _config = Configuration(
           backUrl: 'https://backend.qa.example.com',
