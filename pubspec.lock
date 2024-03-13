@@ -233,6 +233,22 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "0.4.1"
+  easy_localization:
+    dependency: "direct main"
+    description:
+      name: easy_localization
+      sha256: c145aeb6584aedc7c862ab8c737c3277788f47488bfdf9bae0fe112bd0a4789c
+      url: "https://pub.dev"
+    source: hosted
+    version: "3.0.5"
+  easy_logger:
+    dependency: transitive
+    description:
+      name: easy_logger
+      sha256: c764a6e024846f33405a2342caf91c62e357c24b02c04dbc712ef232bf30ffb7
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.0.2"
   equatable:
     dependency: "direct main"
     description:
@@ -405,14 +421,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "4.0.2"
-  husky:
-    dependency: "direct dev"
-    description:
-      name: husky
-      sha256: "69a52b079786cb5d21da0e985d57016c3e3d7876cb62df40cf4dd5fc51212df5"
-      url: "https://pub.dev"
-    source: hosted
-    version: "0.1.6"
   intl:
     dependency: "direct main"
     description:
@@ -971,5 +979,5 @@ packages:
     source: hosted
     version: "3.1.2"
 sdks:
-  dart: ">=3.2.0 <4.0.0"
+  dart: ">=3.2.0-194.0.dev <4.0.0"
   flutter: ">=3.7.0"
